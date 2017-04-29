@@ -1,0 +1,7 @@
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Mellons\Mellons\obj\Debug\Mellons.csprojResolveAssemblyReference.cache
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Mellons\Mellons\bin\Debug\Mellons.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Mellons\Mellons\bin\Debug\Mellons.pdb
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Mellons\Mellons\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Mellons\Mellons\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Mellons\Mellons\obj\Debug\Mellons.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Mellons\Mellons\obj\Debug\Mellons.pdb
