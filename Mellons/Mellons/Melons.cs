@@ -20,8 +20,11 @@ namespace Mellons
 
         public int IsRequestDoable(int x)
         {
-            if ((x/2) % 2 == 0)
+            if ((x / 2) % 2 == 0)
                 return 1;
+            else
+                if (((x / 2) + 1) % 2 == 0)
+                    return 1;
             return 0;
             //daca x e impar, nu are rost sa se faca verificare pt ca se poate obtine doar din insumarea a unui nr par si a unuia impar
         }
