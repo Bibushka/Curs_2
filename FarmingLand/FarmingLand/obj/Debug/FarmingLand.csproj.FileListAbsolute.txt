@@ -1,0 +1,7 @@
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FarmingLand\FarmingLand\obj\Debug\FarmingLand.csprojResolveAssemblyReference.cache
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FarmingLand\FarmingLand\bin\Debug\FarmingLand.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FarmingLand\FarmingLand\bin\Debug\FarmingLand.pdb
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FarmingLand\FarmingLand\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FarmingLand\FarmingLand\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FarmingLand\FarmingLand\obj\Debug\FarmingLand.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FarmingLand\FarmingLand\obj\Debug\FarmingLand.pdb
