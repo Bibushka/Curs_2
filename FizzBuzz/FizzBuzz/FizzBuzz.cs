@@ -9,14 +9,16 @@ namespace FizzBuzz
         [TestMethod]
         public void TestMethod1()
         {
-            string result = TalkWierd(15);
-            Assert.AreEqual("FizzBuzz", result);
+            string result = TalkWierd(5);
+            Assert.AreEqual("Buzz", result);
         }
 
         public string TalkWierd(int number)
         {
-            if (number % 5 == 0 && number % 3 ==0)
-                return "FizzBuzz";
+            if (number % 3 == 0)
+                return "Fizz";
+            if (number % 5 == 0)
+                return "Buzz";
             return "Not";  
          }
     }
