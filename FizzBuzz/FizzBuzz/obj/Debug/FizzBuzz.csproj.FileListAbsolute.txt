@@ -1,0 +1,6 @@
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
