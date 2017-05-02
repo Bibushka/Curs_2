@@ -9,7 +9,7 @@ namespace FizzBuzz
         [TestMethod]
         public void TestMethod1()
         {
-            string result = TalkWierd(15);
+            string result = TalkWierd(14);
             Assert.AreEqual("FizzBuzz", result);
         }
 
