@@ -7,25 +7,20 @@ namespace Mellons
     public class Melons
     {
         [TestMethod]
-        public string TestMethod1()
+        public void TestMethod1()
         {
-            string rYes = "DA", rNo = "NU";
-            int result = IsRequestDoable(5);
-            if (result == 1)
-               { Assert.AreEqual(1, result)
-                return rYes; }
-            Assert.AreEqual(0, result);
-            return rNo;
+            string result = IsRequestDoable(14);
+            Assert.AreEqual("DA", result);
         }
 
-        public int IsRequestDoable(int x)
+        public string IsRequestDoable(double x)
         {
             if ((x / 2) % 2 == 0)
-                return 1;
+                return "DA";
             else
                 if (((x / 2) + 1) % 2 == 0)
-                    return 1;
-            return 0;
+                return "DA";
+            return "NU";
             //daca x e impar, nu are rost sa se faca verificare pt ca se poate obtine doar din insumarea a unui nr par si a unuia impar
         }
     }
