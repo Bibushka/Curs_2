@@ -9,26 +9,18 @@ namespace RomanNumbers
         [TestMethod]
         public void GenerateRomanNumbersUnderTen()
         {
-            string romanNumber = ConvertNumbers(9);
-            Assert.AreEqual("IX",romanNumber);
+            string romanNumber = ConvertNumbers(89);
+            Assert.AreEqual("Your number has passed the initial test.",romanNumber);
         }
 
         public string ConvertNumbers(int x)
         {
-            string romanNumbers[] = { "IX", "VIII", "V", "IV", "I" };
-            int[] arabicNumbers = { 9, 8, 5, 4, 1};
+            string[] romanNumbers = { "IX", "V", "IV", "I" };
+            int[] arabicNumbers = { 9, 5, 4, 1};
             string value=null;
-            for (int i = 0; i <= 4; i++)
-            {
-                if (x - arabicNumbers[i] == 0)
-                    return romanNumbers[i];
-                if (x - arabicNumbers[i] > 0)
-                {
-                    value = value + romanNumbers[i];
-                    x = x - arabicNumbers[i];
-                }
-            }
-            return value;
+            if (x > 9 || x == 0)
+                return "Please enter a number smaller than 9.";
+            return "Your number has passed the initial test.";
         }
     }
 }

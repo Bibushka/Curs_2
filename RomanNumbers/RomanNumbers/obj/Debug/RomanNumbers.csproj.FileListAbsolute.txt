@@ -1,1 +1,7 @@
 C:\Users\brankana\Desktop\Junior Mind\Curs_2\RomanNumbers\RomanNumbers\obj\Debug\RomanNumbers.csprojResolveAssemblyReference.cache
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\RomanNumbers\RomanNumbers\bin\Debug\RomanNumbers.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\RomanNumbers\RomanNumbers\bin\Debug\RomanNumbers.pdb
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\RomanNumbers\RomanNumbers\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\RomanNumbers\RomanNumbers\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\RomanNumbers\RomanNumbers\obj\Debug\RomanNumbers.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\RomanNumbers\RomanNumbers\obj\Debug\RomanNumbers.pdb
