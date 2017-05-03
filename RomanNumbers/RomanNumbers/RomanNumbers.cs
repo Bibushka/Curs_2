@@ -9,7 +9,7 @@ namespace RomanNumbers
         [TestMethod]
         public void GenerateRomanNumbersUnderTen()
         {
-            string romanNumber = ConvertNumbers(89);
+            string romanNumber = ConvertNumbers(7);
             Assert.AreEqual("Your number has passed the initial test.",romanNumber);
         }
 
