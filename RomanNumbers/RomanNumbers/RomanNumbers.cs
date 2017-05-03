@@ -9,8 +9,14 @@ namespace RomanNumbers
         [TestMethod]
         public void GenerateRomanNumbersUnderTen()
         {
-            string romanNumber = ConvertNumbers(7);
-            Assert.AreEqual("Your number has passed the initial test.",romanNumber);
+            string romanNumber = ConvertNumbers(8);
+            Assert.AreEqual("Please enter a number smaller than 9.",romanNumber);
+        }
+
+        public void GenerateRomanNumbers()
+        {
+            string romanNumber = ConvertNumbers(8);
+            Assert.AreEqual("VIII", romanNumber);
         }
 
         public string ConvertNumbers(int x)
@@ -20,7 +26,20 @@ namespace RomanNumbers
             string value=null;
             if (x > 9 || x == 0)
                 return "Please enter a number smaller than 9.";
-            return "Your number has passed the initial test.";
+            for(int i=0; i<=3; i++)
+                while (x!=0)
+                    {
+                    if (x - arabicNumbers[i] == 0)
+                        {
+                        value = value + romanNumbers[i];
+                        }
+                    if (x - arabicNumbers[i] >= 0)
+                        {
+                        x = x - arabicNumbers[i];
+                        value = value + romanNumbers[i];
+                        }
+                     }
+            return value;
         }
     }
 }
