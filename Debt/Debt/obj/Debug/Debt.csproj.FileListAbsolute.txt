@@ -1,0 +1,7 @@
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Debt\Debt\obj\Debug\Debt.csprojResolveAssemblyReference.cache
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Debt\Debt\bin\Debug\Debt.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Debt\Debt\bin\Debug\Debt.pdb
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Debt\Debt\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Debt\Debt\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Debt\Debt\obj\Debug\Debt.dll
+C:\Users\brankana\Desktop\Junior Mind\Curs_2\Debt\Debt\obj\Debug\Debt.pdb
