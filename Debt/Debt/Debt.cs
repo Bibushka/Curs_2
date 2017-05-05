@@ -9,8 +9,8 @@ namespace Debt
         [TestMethod]
         public void TestMethod1()
         {
-            double totalAmountOwed = CalculateMoneyOwed(100, 1);
-            Assert.AreEqual(102, totalAmountOwed);
+            double totalAmountOwed = CalculateMoneyOwed(100, 11);
+            Assert.AreEqual(155, totalAmountOwed);
         }
 
         public double CalculateMoneyOwed(int monthlyPayment, int numberOfDaysLate)
@@ -20,6 +20,8 @@ namespace Debt
                 return monthlyPayment;
             if (numberOfDaysLate >= 1 && numberOfDaysLate <= 10)
                 totalAmountOwed = monthlyPayment + numberOfDaysLate * monthlyPayment * 0.02;
+            if (numberOfDaysLate >= 11 && numberOfDaysLate <= 30)
+                totalAmountOwed = monthlyPayment + numberOfDaysLate * monthlyPayment * 0.05;
             return totalAmountOwed;
          }
     }
