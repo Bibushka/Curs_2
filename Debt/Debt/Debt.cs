@@ -17,7 +17,7 @@ namespace Debt
         {
             //double totalAmountOwed;
             if (numberOfDaysLate == 0)
-                return 0;
+                return monthlyPayment;
             return 1;
         }
     }
