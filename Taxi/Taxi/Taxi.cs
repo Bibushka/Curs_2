@@ -7,10 +7,10 @@ namespace Taxi
     public class Taxi
     {
         [TestMethod]
-        public void TestDayCharge()
+        public void TestDayChargeDistanceOne()
         {
-            int fare = CalculateTaxiFare(8, 5);
-            Assert.AreEqual(25, fare);
+            int fare = CalculateTaxiFare(8, 15);
+            Assert.AreEqual(75, fare);
         }
 
         [TestMethod]
@@ -25,7 +25,8 @@ namespace Taxi
         {
             int fare = 0;
             if(hour>=8 && hour<21)
-                fare=distance*5;
+                if(distance>=1 && distance<20)
+                    fare=distance*5;
             if (hour < 8 || hour >= 21 && hour<=24)
                 fare = distance * 7;
             return fare;
