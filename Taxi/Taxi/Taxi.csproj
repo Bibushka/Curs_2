@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E30F82FA-0262-4DFD-A879-B64B7B5E3741}</ProjectGuid>
+    <ProjectGuid>{AAF0D32D-3572-49C1-ABCB-F414C9E6FA77}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Taxi</RootNamespace>

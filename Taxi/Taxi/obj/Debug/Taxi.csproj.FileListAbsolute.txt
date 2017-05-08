@@ -1,4 +1,3 @@
-C:\Users\brankana\Desktop\Junior Mind\Curs_2\Taxi\Taxi\obj\Debug\Taxi.csprojResolveAssemblyReference.cache
 C:\Users\brankana\Desktop\Junior Mind\Curs_2\Taxi\Taxi\bin\Debug\Taxi.dll
 C:\Users\brankana\Desktop\Junior Mind\Curs_2\Taxi\Taxi\bin\Debug\Taxi.pdb
 C:\Users\brankana\Desktop\Junior Mind\Curs_2\Taxi\Taxi\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

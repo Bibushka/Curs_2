@@ -7,27 +7,28 @@ namespace Taxi
     public class Taxi
     {
         [TestMethod]
-        public void GetDayPrice()
+        public void TestDayCharge()
         {
-            int fare = CalculateCabFare(8, 5);
+            int fare = CalculateTaxiFare(8, 5);
             Assert.AreEqual(25, fare);
         }
 
         [TestMethod]
-        public int GetNightPrice()
+        public void TestNightCharge()
         {
-            int fare = CalculateCabFare(22, 16);
-            Assert.AreEqual(112, fare);
+            int fare = CalculateTaxiFare(22, 5);
+            Assert.AreEqual(35, fare);
         }
 
-        public int CalculateCabFare(int hour, int distance)
+
+        public int CalculateTaxiFare(int hour, int distance)
         {
-            int fare;
-            if (hour >= 8 && hour < 21)
-                return fare = distance * 5;
-            if (hour >= 21 && hour < 8)
-                return fare = distance * 7;
-            return 0;
+            int fare = 0;
+            if(hour>=8 && hour<21)
+                fare=distance*5;
+            if (hour < 8 || hour >= 21 && hour<=24)
+                fare = distance * 7;
+            return fare;
         }
     }
 }
